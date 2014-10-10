@@ -7,3 +7,4 @@ class PSHOrg_cRDPEnabled : OMI_BaseResource
 	[Write, Description("Enables the default Remote Desktop firewall rules in Windows Firewall. If set to false, the firewall rules will be left as is, no changes will be made. Default value is true")] Boolean EnableDefaultFirewallRule;
 };
 
+
